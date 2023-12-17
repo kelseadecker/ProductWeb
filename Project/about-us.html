@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: grey;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            background-image: url('/sources/pexels-pixabay-269077.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .header h2,
+        .header p {
+            margin: 0;
+        }
+
+        /* Add styles for the navbar */
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 20px;
+        }
+
+        .product {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .column .product:last-child {
+            margin-right: 0;
+        }
+
+        .product img {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .product h2 {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .product button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .product button:hover {
+            background-color: #2980b9;
+        }
+
+        /* Add styles for the new section */
+        .landing-section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .landing-section h3 {
+            color: #333;
+            text-align: center;
+        }
+
+        .landing-section p {
+            color: #666;
+            text-align: center;
+        }
+
+        footer {
+        text-align: center;
+        margin-top: auto; 
+        padding: 10px;
+        background-color: #333;
+        border-radius: 8px;
+        color: #fff;
+      }
+      .image-section {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .image-section img {
+        width: 45%;
+        margin: 0 5px; 
+      }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Welcome to Our Paper Company</h2>
+        <p>We are more than just paper</p>
+    </div>
+
+    <!-- Add navbar underneath the header -->
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about-us.html">About Us</a>
+        <a href="faq.html">FAQ's</a>
+        <a href="contact-us.html">Contact Us</a>
+        <!-- Add more navbar links as needed -->
+    </nav>
+    <div class="image-section">
+        <img src="/sources/meeting02.jpg" alt="Company Image 1" />
+        <img src="/sources/meeting01.jpg" alt="Company Image 2" />
+      </div>
+
+    <div class="landing-section">
+      <h3>Our Story</h3>
+      <p>
+        At Paper Company, we believe in the power of paper to make a difference.
+        Our journey began with a passion for providing high-quality, eco-friendly
+        paper products for various needs. Over the years, we have dedicated
+        ourselves to sourcing sustainable materials and creating products that
+        meet the highest standards.
+      </p>
+
+      <h3>Our Mission</h3>
+      <p>
+        Our mission is to offer paper products that not only meet your
+        expectations but also contribute to a more sustainable future. We are
+        committed to environmental responsibility, ensuring that our processes
+        and materials have minimal impact on the planet.
+      </p>
+
+      <h3>Quality Assurance</h3>
+      <p>
+        Quality is at the core of everything we do. From the selection of raw
+        materials to the manufacturing process, we adhere to strict quality
+        standards. This ensures that every product you purchase from Paper
+        Company is of the highest quality and durability.
+      </p>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Paper Company. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

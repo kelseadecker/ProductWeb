@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-qZUgUp9Ueem6p1u8E0M2fN75d5Oh5byHx9HFXlET8RuuAlFe7MELk1R1mwvDnWgV2V0jE0fLWBJScoNxgEK/4Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: grey;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            background-image: url('/sources/pexels-pixabay-269077.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .header h2,
+        .header p {
+            margin: 0;
+        }
+
+        /* Add styles for the navbar */
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 20px;
+        }
+
+        .product {
+            text-align: center;
+            margin: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .column .product:last-child {
+            margin-right: 0;
+        }
+
+        .product img {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .product h2 {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .product button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .product button:hover {
+            background-color: #2980b9;
+        }
+
+        /* Add styles for the new section */
+        .landing-section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .landing-section h3 {
+            color: #333;
+            text-align: center;
+        }
+
+        .landing-section p {
+            color: #666;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: auto;
+            padding: 10px;
+            background-color: #333;
+            border-radius: 8px;
+            color: #fff;
+        }
+
+        .social-media-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-media-icons a {
+            color: #3498db;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Welcome to Our Paper Company</h2>
+        <p>We are more than just paper</p>
+    </div>
+
+    <!-- Add navbar underneath the header -->
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about-us.html">About Us</a>
+        <a href="faq.html">FAQ's</a>
+        <a href="contact-us.html">Contact Us</a>
+        <!-- Add more navbar links as needed -->
+    </nav>
+
+    <!-- New landing section -->
+    <div class="landing-section">
+        <h3>Our Offerings</h3>
+        <p>Discover high-quality, eco-friendly paper products crafted with care. Our commitment to sustainability and
+            excellence sets us apart. Explore our range of products designed for various needs.</p>
+
+        <h3>Why Choose Us?</h3>
+        <p>At Our Paper Company, we take pride in our dedication to environmental responsibility, superior quality, and
+            customer satisfaction. With a focus on innovation and sustainability, we bring you paper solutions that make
+            a difference.</p>
+    </div>
+
+   <!-- Social Media Icons -->
+<div class="social-media-icons">
+    <a href="/sources/facebook.svg" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+    <!-- Add more social media icons as needed -->
+</div>
+
+
+    <footer>
+        <p>&copy; 2023 Paper Company. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
